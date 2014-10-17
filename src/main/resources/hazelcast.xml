@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hazelcast xsi:schemaLocation="http://www.hazelcast.com/schema/config"
+           xmlns="http://www.hazelcast.com/schema/config"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <network>
+        <join><multicast enabled="true"/></join>
+    </network>
+
+    <map name="a"></map>
+</hazelcast>
